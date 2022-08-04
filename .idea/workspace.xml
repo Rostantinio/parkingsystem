@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a59a39c-5c94-453a-b499-ce859a21ef09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/Data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/config/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/config/DataBaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/constants/Fare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/constants/Fare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/ParkingSpotDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/ParkingSpotDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/config/DataBaseTestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/config/DataBaseTestConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CGj0Ey4IzSxUQ0V0XksIAbfMzn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.FareCalculatorServiceTest.calculateTheFarBikeRateWithlessMoreThirtyMinutesOfParkingTime">
+    <configuration name="FareCalculatorServiceTest.calculateFareBikeValidationTwentyParkingTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parkit.parkingsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parkit.parkingsystem" />
+      <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.FareCalculatorServiceTest" />
+      <option name="METHOD_NAME" value="calculateFareBikeValidationTwentyParkingTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FareCalculatorServiceTest.calculateFareCarValidationTwentyParkingTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parkit.parkingsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parkit.parkingsystem" />
+      <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.FareCalculatorServiceTest" />
+      <option name="METHOD_NAME" value="calculateFareCarValidationTwentyParkingTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FareCalculatorServiceTest.calculateTheFarBikeRateWithlessMoreThirtyMinutesOfParkingTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parkit.parkingsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parkit.parkingsystem" />
+      <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.FareCalculatorServiceTest" />
+      <option name="METHOD_NAME" value="calculateTheFarBikeRateWithlessMoreThirtyMinutesOfParkingTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingDataBaseIT.testParkingACar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parkit.parkingsystem.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parkit.parkingsystem.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.integration.ParkingDataBaseIT" />
+      <option name="METHOD_NAME" value="testParkingACar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingDataBaseIT.testParkingLotExit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parkit.parkingsystem.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parkit.parkingsystem.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.integration.ParkingDataBaseIT" />
+      <option name="METHOD_NAME" value="testParkingLotExit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FareCalculatorServiceTest.calculateTheFarBikeRateWithlessMoreThirtyMinutesOfParkingTime" />
+        <item itemvalue="JUnit.FareCalculatorServiceTest.calculateFareCarValidationTwentyParkingTime" />
+        <item itemvalue="JUnit.FareCalculatorServiceTest.calculateFareBikeValidationTwentyParkingTime" />
+        <item itemvalue="JUnit.ParkingDataBaseIT.testParkingLotExit" />
+        <item itemvalue="JUnit.ParkingDataBaseIT.testParkingACar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a59a39c-5c94-453a-b499-ce859a21ef09" name="Changes" comment="" />
+      <created>1658435620069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658435620069</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/config/DataBaseConfig.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/config/DataBaseTestConfig.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
