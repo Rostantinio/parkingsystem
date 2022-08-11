@@ -48,6 +48,7 @@ public class TicketDAO {
             PreparedStatement ps = con.prepareStatement(DBConstants.GET_TICKET);
             //ID, PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME)
             ps.setString(1,vehicleRegNumber);
+
             ResultSet rs = ps.executeQuery();
             if(rs.next()){
                 ticket = new Ticket();
@@ -86,5 +87,50 @@ public class TicketDAO {
             dataBaseConfig.closeConnection(con);
         }
         return false;
+    }
+    public boolean isRecurrentUser(String vehicleRegNumber) {
+        Connection con = null;
+        boolean isRecurrentUser = false;
+        try {
+            con = dataBaseConfig.getConnection();
+            PreparedStatement preparedStatement = con.prepareStatement(DBConstants.COUNT_RECURRENCE);
+            //ID, PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME)
+            preparedStatement.setString(1, vehicleRegNumber);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if(resultSet.next()){
+                int count = resultSet.getInt(1);
+                if(count > 0) {
+                    isRecurrentUser = true;
+                }
+               // isRecurrentUser = count > 0;
+            }
+            dataBaseConfig.closeResultSet(resultSet);
+            dataBaseConfig.closePreparedStatement(preparedStatement);
+        }catch (Exception ex){
+            logger.error("Error fetching next available slot",ex);
+        }finally {
+            dataBaseConfig.closeConnection(con);
+        }
+        return isRecurrentUser;
+    }
+
+    public boolean vehicleIsAlreadyInsideTheParking(String vehicleRegNumber) {
+        Connection con = null;
+        boolean isAlreadyInside = false;
+        try {
+            con = dataBaseConfig.getConnection();
+            PreparedStatement preparedStatement = con.prepareStatement(DBConstants.COUNT_NULL_OUT_TIME_TICKET);
+            preparedStatement.setString(1, vehicleRegNumber);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()){
+                int count = resultSet.getInt(1);
+                isAlreadyInside = count > 0 ;
+            }
+        }catch (Exception ex){
+            logger.error("Error saving ticket info",ex);
+        }finally {
+            dataBaseConfig.closeConnection(con);
+            return isAlreadyInside;
+        }
     }
 }
